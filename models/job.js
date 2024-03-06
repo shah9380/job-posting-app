@@ -22,3 +22,8 @@ const jobSchema = {
     2
 const jobModel =  mongoose.model("jobs", jobSchema)
 module.exports = jobModel;
+
+//username: shah54
+//password: fMHEeWbBmjCCuRKi
+// mongodb+srv://shah54:<password>@atlascluster.5yoiztc.mongodb.net/
+// mongodb+srv://shah54:fMHEeWbBmjCCuRKi@atlascluster.5yoiztc.mongodb.net/

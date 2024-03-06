@@ -7,7 +7,7 @@ const app = express();
 
 const PORT = 5000;
 
-mongoose.connect("mongodb://localhost:27017/jobapp")
+mongoose.connect("mongodb+srv://shah54:fMHEeWbBmjCCuRKi@atlascluster.5yoiztc.mongodb.net/")
 .then(()=>{
     console.log("database connected successfully")
 })
