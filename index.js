@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
 
 const app = express();
 
-const PORT = 5000;
+const PORT = 10000;
 
 mongoose.connect("mongodb+srv://shah54:fMHEeWbBmjCCuRKi@atlascluster.5yoiztc.mongodb.net/")
 .then(()=>{
